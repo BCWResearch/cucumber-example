@@ -13,3 +13,4 @@ Feature: tokens
     When I create a token with symbol ""
     Then I should receive an exception
     And I should not have a token
+    And I should see an error
